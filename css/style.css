@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    border: 0
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    background: linear-gradient(to bottom, #833591 , #365697);
+    text-align: center;
+    Position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+}
+
+.img__avatar {
+    max-width: 40%;
+    padding-top: 30%;
+    padding-bottom: 5%;
+}
+
+.ul__menu {
+    text-align:  left;
+    color: white;
+    font-size: 28px;
+    list-style-type: none;
+}
+
+.li__el {
+    padding-top: 10%; 
+    margin-top: 5%;
+}
+
+.li__el>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 30%;
+    padding-right: 40%;
+}
+
+
+.li__el>a:hover {
+    color: #ff4ba8;
+    border-left: 5px solid #ff4ba8;
+    transition: 0.3s;
+}
+
+.media {
+    color: white;
+}
+
+.icon {
+    color: white;
+    font-size: 130%;
+    padding: 5%;
+    position: relative;
+    bottom: -120px;
+    left: 0px;
+}
+
+.icon:hover {
+    color: #ff4ba8;
+    transition: 0.3s;
+}
+
+main {
+    margin-left: 20%;
+    background: url(../img/menu.png);
+    width: 80%;
+    height: 3000px;
+    color: #ffffff;
+}
+
+.pad__left__3 {
+    padding-left: 3%;
+}
+
+h3 {
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+hr {
+    height: 3px;
+    width: 90px;
+    border: 0px;
+    border-radius: 15%;
+    background: #ff4ba8;   
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color: #ff4ba8;
+    font-size: 30px;
+}
+
+.about__me {
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 5%;
+    margin-right: 60%;
+}
+
+.hire__me {
+    font-size: 18px;
+    background: #ff4ba8;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+.know__more{
+    font-size: 18px;
+    background: gray;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.hire__a {
+    padding: 10% 30% 10% 30%;
+}
+
+.know__a {
+    padding: 10% 20% 10% 20%;
+}
