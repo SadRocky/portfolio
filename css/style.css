@@ -1,17 +1,29 @@
+/*Start Settings*/ 
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     border: 0
+    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
+
+/*End Settings*/ 
+
+
+/*Start Navbar*/ 
 .menu {
-    background: linear-gradient(to bottom, #833591 , #365697);
+    background: linear-gradient(to bottom, #5c2666 , #253b68);
     text-align: center;
     Position: fixed;
     top: 0;
@@ -70,6 +82,11 @@ a {
     transition: 0.3s;
 }
 
+
+/*End Navbar*/ 
+
+/*Start Main Content*/ 
+
 main {
     margin-left: 20%;
     background: url(../img/menu.png);
@@ -78,39 +95,81 @@ main {
     color: #ffffff;
 }
 
+.pad__top__5 {
+    padding-top: 5%;
+}
+
+.pad__top__15 {
+    padding-top: 15%;
+}
+
+.pad__right__10 {
+    padding-right: 10%;
+}
+
 .pad__left__3 {
     padding-left: 3%;
+}    
+
+.pad__bot__10 {
+    padding-bottom: 10%;
 }
 
-h3 {
-    padding-top: 5%;
-    font-size: 30px;
+
+.mg__top__10 {
+    margin-top: 10%;
 }
 
-hr {
-    height: 3px;
-    width: 90px;
-    border: 0px;
-    border-radius: 15%;
-    background: #ff4ba8;   
+
+
+.display__flex {
+    display: flex;
 }
 
-h1 {
+.h1__nickname {
     padding-top: 5%;
     font-size: 50px;
     color: white;
 }
 
-h2 {
+
+.h2__profession {
     color: #ff4ba8;
     font-size: 30px;
 }
 
-.about__me {
+
+.h3__headline {
+    font-size: 30px;
+}
+
+/*Start About*/
+
+.pad_bot_awpc {
+    padding-bottom: 20%;
+}
+
+
+.img__main__avatar {
+    margin-right: 10%;
+    padding-top: 17%;
+}
+
+
+hr {
+    height: 3px;
+    width: 120px;
+    border: 0px;
+    border-radius: 15%;
+    background: #ff4ba8;   
+}
+
+.description {
     font-size: 20px;
     color: #ffffff;
     padding-top: 5%;
-    margin-right: 60%;
+    margin-right: 20%;
+    padding-bottom: 2.5%;
 }
 
 .hire__me {
@@ -141,4 +200,15 @@ h2 {
 
 .know__a {
     padding: 10% 20% 10% 20%;
+}
+
+.img__project>a>img {
+    width: 45%;
+} 
+
+.img__project>a>img:hover {
+    width: 46%;
+    background: black;
+    z-index: 1000;
+    transition: 0.3s;
 }
