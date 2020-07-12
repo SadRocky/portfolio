@@ -91,7 +91,7 @@ main {
     margin-left: 20%;
     background: url(../img/menu.png);
     width: 80%;
-    height: 3000px;
+    height: 4500px;
     color: #ffffff;
 }
 
@@ -120,8 +120,6 @@ main {
     margin-top: 10%;
 }
 
-
-
 .display__flex {
     display: flex;
 }
@@ -131,7 +129,6 @@ main {
     font-size: 50px;
     color: white;
 }
-
 
 .h2__profession {
     color: #ff4ba8;
@@ -149,16 +146,42 @@ main {
     padding-bottom: 20%;
 }
 
-
 .img__main__avatar {
     margin-right: 10%;
     padding-top: 17%;
 }
 
 
-hr {
+hr.about {
     height: 3px;
-    width: 120px;
+    width: 85px;
+    border: 0px;
+    border-radius: 15%;
+    background: #ff4ba8;   
+}
+
+
+hr.work {
+    height: 3px;
+    width: 80px;
+    border: 0px;
+    border-radius: 15%;
+    background: #ff4ba8;   
+}
+
+
+hr.projects {
+    height: 3px;
+    width: 115px;
+    border: 0px;
+    border-radius: 15%;
+    background: #ff4ba8;   
+}
+
+
+hr.certificates{
+    height: 3px;
+    width: 160px;
     border: 0px;
     border-radius: 15%;
     background: #ff4ba8;   
