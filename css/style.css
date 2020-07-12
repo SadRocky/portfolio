@@ -235,3 +235,147 @@ hr.certificates{
     z-index: 1000;
     transition: 0.3s;
 }
+
+
+@media (min-width: 1024px) and (max-width: 1279px){
+
+    main {
+        margin-left: 20%;
+        background: url(../img/menu.png);
+        width: 80%;
+        height: 3500px;
+        color: #ffffff;
+    }
+
+    .ul__menu {
+        font-size: 20px;
+    }
+
+    .icon {
+        font-size: 90%;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .h1__nickname {
+        font-size: 35px;
+    }
+
+    .h2__profession {
+        font-size: 28px;
+    }
+
+    #img__about {
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px){
+
+    main {
+        margin-left: 20%;
+        background: url(../img/menu.png);
+        width: 80%;
+        height: 4000px;
+        color: #ffffff;
+    }
+
+    .ul__menu {
+        font-size: 25px;
+    }
+
+    .icon {
+        font-size: 130%;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .h1__nickname {
+        font-size: 35px;
+    }
+
+    .h2__profession {
+        font-size: 28px;
+    }
+
+    #img__about {
+        display: none;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1679px){
+
+    main {
+        margin-left: 20%;
+        background: url(../img/menu.png);
+        width: 80%;
+        height: 4000px;
+        color: #ffffff;
+    }
+
+    .ul__menu {
+        font-size: 30px;
+    }
+
+    .icon {
+        font-size: 140%;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .h1__nickname {
+        font-size: 35px;
+    }
+
+    .h2__profession {
+        font-size: 28px;
+    }
+
+
+}
+
+@media (min-width: 1680px) and (max-width: 1919px){
+
+    .pad__left__3 {
+        padding-top: 5%;
+    }
+
+    .img__main__avatar {
+        padding-top: 15%;
+        margin-top: 5%;
+    }
+    main {
+        margin-left: 20%;
+        background: url(../img/menu.png);
+        width: 80%;
+        height: 5000px;
+        color: #ffffff;
+    }
+}
+
+
+@media (min-width : 1920px)  {
+    .pad__left__3 {
+        padding-top: 15%;
+    }
+
+    .img__main__avatar {
+        padding-top: 15%;
+        margin-top: 15%;
+    }
+    main {
+        margin-left: 20%;
+        background: url(../img/menu.png);
+        width: 80%;
+        height: 6500px;
+        color: #ffffff;
+    }
+    
+}
+
