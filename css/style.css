@@ -236,6 +236,324 @@ hr.certificates{
     transition: 0.3s;
 }
 
+@media (min-width:320px) and (max-width:479px) {
+
+    hr.about {
+        display: none;
+    }
+
+    .display__flex {
+        display: table;
+    }
+    hr.projects {
+        margin-bottom: 10%;
+    }
+
+    hr.certificates {
+        margin-bottom: 10%;
+    }
+
+    .pad__left__3 {
+        padding-left: 6%;
+    }
+
+    .adaptation_5 {
+        margin-top: 5%;
+    }
+
+    .adaptation_17 {
+        padding-left: 14%;
+    }
+
+    .img__main__avatar {
+        margin-right: 0%;
+    }
+    
+    .hire__me {
+        margin-top: 10%;
+        width: 180px;
+        font-size: 15px;
+    }
+
+    .know__more {
+        margin-top: 10%;
+        width: 180px;
+        font-size: 15px;
+    }
+
+    #img__about {
+        display: none;
+    }
+
+    .h1__nickname {
+        padding-top: 5%;
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .h2__profession {
+        font-size: 25px;
+    }
+
+    .li__el>a:hover {
+        color: #ff4ba8;
+        border: 0px;
+        transition: 0.3s;
+    }
+
+    .icon {
+        position: relative;
+        top: 10px;
+        font-size: 90%;
+    }
+
+    .ul__menu {
+        text-align: left;
+        color: white;
+        font-size: 15px;
+        list-style-type: none;
+    } 
+
+    .li__el {
+        display: inline-block;
+        padding-top: 0%;
+        width: 20%;
+    }
+
+    main {
+        background: url(../img/menu.png);
+        width: 100%;
+        height: 3000px;
+        color: #ffffff;
+        margin-left: 0%;
+    }
+
+    .menu {
+
+        background: linear-gradient(to bottom, #5c2666 , #253b68);
+        text-align: center;
+        Position: fixed;
+        top: 0;
+        left: 0;
+        height: 15%;
+        width: 100%;
+    }
+
+    .img__avatar {
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width:480px) and (max-width:639px) {
+
+    .display__flex {
+        display: table;
+    }
+    hr.projects {
+        margin-bottom: 10%;
+    }
+
+    hr.certificates {
+        margin-bottom: 10%;
+    }
+
+    .pad__left__3 {
+        padding-left: 6%;
+    }
+
+    .adaptation_5 {
+        margin-top: 5%;
+    }
+
+    .adaptation_17 {
+        padding-left: 14%;
+    }
+
+    .img__main__avatar {
+        margin-right: 0%;
+    }
+    
+    .hire__me {
+        margin-top: 10%;
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .know__more {
+        margin-top: 10%;
+        width: 180px;
+        font-size: 20px;
+    }
+
+    #img__about {
+        display: none;
+    }
+
+    .h1__nickname {
+        padding-top: 30%;
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .h2__profession {
+        font-size: 30px;
+    }
+
+    .li__el>a:hover {
+        color: #ff4ba8;
+        border: 0px;
+        transition: 0.3s;
+    }
+
+    .icon {
+        position: relative;
+        top: 30px;
+    }
+
+    .ul__menu {
+        text-align: left;
+        color: white;
+        font-size: 22px;
+        list-style-type: none;
+    } 
+
+    .li__el {
+        display: inline-block;
+        padding-top: 0%;
+        width: 20%;
+    }
+
+    main {
+        background: url(../img/menu.png);
+        width: 100%;
+        height: 4000px;
+        color: #ffffff;
+        margin-left: 0%;
+    }
+
+    .menu {
+
+        background: linear-gradient(to bottom, #5c2666 , #253b68);
+        text-align: center;
+        Position: fixed;
+        top: 0;
+        left: 0;
+        height: 15%;
+        width: 100%;
+    }
+
+    .img__avatar {
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width:640px) and (max-width:1023px) {
+
+    hr.projects {
+        margin-bottom: 10%;
+    }
+
+    hr.certificates {
+        margin-bottom: 10%;
+    }
+
+    .pad__left__3 {
+        padding-left: 6%;
+    }
+
+    .adaptation_5 {
+        margin-top: 5%;
+    }
+
+    .adaptation_17 {
+        padding-left: 14%;
+    }
+
+    .img__main__avatar {
+        margin-right: 0%;
+    }
+    
+    .hire__me {
+        margin-top: 10%;
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .know__more {
+        margin-top: 10%;
+        width: 180px;
+        font-size: 20px;
+    }
+
+    #img__about {
+        display: none;
+    }
+
+    .h1__nickname {
+        padding-top: 30%;
+    }
+
+    .li__el>a:hover {
+        color: #ff4ba8;
+        border: 0px;
+        transition: 0.3s;
+    }
+
+    .icon {
+        position: relative;
+        top: 30px;
+    }
+
+    .ul__menu {
+        text-align: left;
+        color: white;
+        font-size: 25px;
+        list-style-type: none;
+    } 
+
+    .li__el {
+        display: inline-block;
+        padding-top: 0%;
+        width: 20%;
+    }
+
+    main {
+        background: url(../img/menu.png);
+        width: 100%;
+        height: 4000px;
+        color: #ffffff;
+        margin-left: 0%;
+    }
+
+    .menu {
+
+        background: linear-gradient(to bottom, #5c2666 , #253b68);
+        text-align: center;
+        Position: fixed;
+        top: 0;
+        left: 0;
+        height: 15%;
+        width: 100%;
+    }
+
+    .img__avatar {
+        display: none;
+    }
+
+}
+
 
 @media (min-width: 1024px) and (max-width: 1279px){
 
@@ -278,7 +596,7 @@ hr.certificates{
         margin-left: 20%;
         background: url(../img/menu.png);
         width: 80%;
-        height: 4000px;
+        height: 4300px;
         color: #ffffff;
     }
 
@@ -291,15 +609,15 @@ hr.certificates{
     }
 
     .description {
-        font-size: 18px;
+        font-size: 28px;
     }
 
     .h1__nickname {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .h2__profession {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     #img__about {
@@ -313,7 +631,7 @@ hr.certificates{
         margin-left: 20%;
         background: url(../img/menu.png);
         width: 80%;
-        height: 4000px;
+        height: 5000px;
         color: #ffffff;
     }
 
@@ -337,6 +655,9 @@ hr.certificates{
         font-size: 28px;
     }
 
+    #img__about {
+        width: 120%;
+    }
 
 }
 
@@ -354,7 +675,7 @@ hr.certificates{
         margin-left: 20%;
         background: url(../img/menu.png);
         width: 80%;
-        height: 5000px;
+        height: 6000px;
         color: #ffffff;
     }
 }
@@ -376,6 +697,9 @@ hr.certificates{
         height: 6500px;
         color: #ffffff;
     }
-    
+    #img__about {
+        max-width: 90%;
+        padding-bottom: 5%;
+    }
 }
 
